@@ -1,6 +1,8 @@
 # **PREDICTION OF FUTURE FARM YIELD**  
 **_Simple Linear Regression | Jupyter Notebook_** 
 
+![](cover_image.webp)
+
 ## **INTRODUCTION**  
 Accurate crop yield prediction is crucial for agricultural planning and food security. This project applies **Simple Linear Regression** to predict future farm yields based on temperature variations. The goal is to determine how temperature influences crop yield and build a predictive model that can assist farmers and policymakers in making informed decisions.
 
@@ -37,16 +39,19 @@ EDA was performed to understand the dataset and identify patterns. Key steps inc
 
 ### **2. Data Distribution Analysis**  
 - **Histograms** to visualize the distribution of Temperature and Crop Yield.  
-- **Box plots** to identify outliers.  
+- **Box plots** to identify outliers.
+
+   ![](data_distribution.png)
+   ![](box_plot.png) 
 
 ### **3. Feature Relationships & Correlation Analysis**  
 - **Correlation heatmap** to identify relationships between features.  
-- **Scatter plot** of **Temperature vs. Crop Yield** to observe trends.  
+- **Scatter plot** of **Temperature vs. Crop Yield** to observe trends.
 
 ### **4. Residual Analysis (After Model Fitting)**  
 - Fitted a **Simple Linear Regression model**.  
 - **Residual plot** to check for patterns in prediction errors.  
-
+   
 #### **Key Insights from EDA:**  
 - **Strong correlation** between **Temperature and Crop Yield**.  
 - **No significant missing values** in the dataset.  
@@ -76,11 +81,17 @@ A **Simple Linear Regression model** was trained to predict crop yield based on 
 - Visualized the **relationship between Temperature and Crop Yield**.  
 - Fitted a **regression line** to observe trends.  
 
+   ![](scatterplot.png)
+
 ### **2. Correlation Heatmap**  
 - Displayed the **correlation matrix** to confirm linear relationships.  
 
+   ![](heatmap.png)
+
 ### **3. Residual Plot**  
 - Checked for **heteroscedasticity** (random distribution of residuals).  
+
+   ![](residual_plot.png)
 
 ### **4. Model Performance Metrics**  
 - Evaluated prediction accuracy using **MAE, MSE, and R² score**.  
